@@ -1,0 +1,3 @@
+sender-format: "&7[To: &a%receiver%&7] %message%"
+receiver-format: "&7[From: &a%sender%&7] %message%"
+message-color: "&7"

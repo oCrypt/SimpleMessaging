@@ -1,0 +1,16 @@
+name: SimpleMessaging
+version: '${project.version}'
+main: me.cahrypt.simplemessaging.SimpleMessaging
+api-version: 1.18
+depend: [ Keywords ]
+authors: [ cahrypt ]
+description: Messaging plugin for servers
+commands:
+  message:
+    usage: /message <player> <message>
+    aliases: ["msg"]
+  reply:
+    usage: /reply <message>
+    aliases: ["r"]
+  reloadmessaging:
+    usage: /reloadmessaging
